@@ -21,9 +21,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/khalilblogAngular1
-        username: khalilblogAngular1
-        password:
+        url: jdbc:postgresql://localhost:5555/khalil_blog
+        username: khalil
+        password: 
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
@@ -40,7 +40,7 @@ spring:
             cluster-nodes: localhost:9300
     mail:
         host: localhost
-        port: 25
+        port: 1025
         username:
         password:
     thymeleaf:
